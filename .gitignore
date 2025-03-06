@@ -1,0 +1,68 @@
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.vscode/settings.json
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Build-Ergebnisse
+bin/
+obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ReleasePublic/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+# Windows Installer files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.app
+
+# Windows Installer files
+.vspscc
+
+# Windows Installer files
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows Installer files
+.vs2017/
+.vs2019/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows Installer files
+.vs/
+
+# Azure Functions
+.local/
+
+# JetBrains Rider
+.idea/
+
+# Rider IDE
+.idea/
+
+# Mac/OSX files
+.DS_Store
