@@ -1,45 +1,40 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Dodernizer.DTO.Requests
+namespace Dodernizer.DTO.DTOs
 {
-    public class DTORegister
+    public class DTOUser
     {
         /// <summary>
-        /// First name of the user.
+        /// First name of user
         /// </summary>
         [Required]
         [MaxLength(50)]
         public string FirstName { get; set; }
 
         /// <summary>
-        /// Middle name of the user (optional).
+        /// Middle name of user
         /// </summary>        
         [MaxLength(50)]
-        public string? MiddleName { get; set; }
+        public string? MiddleName { get; set; }        
 
         /// <summary>
-        /// Last name of the user.
+        /// Last name of user
         /// </summary>
         [Required]
         [MaxLength(50)]
         public string LastName { get; set; }
 
         /// <summary>
-        /// The email address of the user. It must be a valid email format.
+        /// Email of user
         /// </summary>
         [Required]
         [EmailAddress]
         public string Email { get; set; }
 
         /// <summary>
-        /// The password for the user. Must meet security requirements.
+        /// Date of birth of user
         /// </summary>
         [Required]
-        public string Password { get; set; }
-
-        /// <summary>
-        /// The date of birth of the user.
-        /// </summary>
         public DateTime Birthday { get; set; }
     }
 }
